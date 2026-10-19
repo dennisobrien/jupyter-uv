@@ -205,3 +205,9 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Local Jupyter server runtime (logs, collaboration history)
+.run/
+
+# Collaboration history, if JupyterLab is launched without scripts/jupyter-server.sh
+.jupyter_ystore.db*
